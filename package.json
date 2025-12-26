@@ -1,0 +1,71 @@
+{
+  "name": "fox-music",
+  "version": "1.0.0",
+  "description": "FoxMusic Sunar🦊.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/ffmpeg-postinstall.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "müzik-botu",
+    "müzik",
+    "distube",
+    "discord.js",
+    "discordjs-v14",
+    "slash-komutları",
+    "youtube",
+    "spotify",
+    "soundcloud",
+    "şarkı-sözleri",
+    "sıra",
+    "çalma-listesi",
+    "filtreler",
+    "otomatik-oynat",
+    "7-24",
+    "oto-devam",
+    "dj",
+    "ffmpeg",
+    "nodejs",
+    "fox-music"
+  ],
+  "author": "foxandswertses",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.0",
+    "@distube/soundcloud": "^2.0.4",
+    "@distube/spotify": "^2.0.2",
+    "@distube/youtube": "^1.0.4",
+    "@distube/yt-dlp": "^2.0.1",
+    "@distube/ytsr": "^2.0.4",
+    "@joshdb/core": "^1.2.7",
+    "@joshdb/json": "^1.0.5",
+    "@joshdb/mongo": "^1.1.6",
+    "@snazzah/davey": "^0.1.6",
+    "cors": "^2.8.5",
+    "discord.js": "^14.22.1",
+    "distube": "^5.0.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "mongoose": "^8.18.0",
+    "opusscript": "^0.1.1",
+    "simple-find-lyrics": "^0.0.1",
+    "sodium-native": "^5.0.8",
+    "systeminformation": "^5.27.8",
+    "tweetnacl": "^1.0.3"
+  },
+  "optionalDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  }
+}
